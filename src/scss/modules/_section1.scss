@@ -1,0 +1,56 @@
+.section1{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 211, 211);
+    padding: 0%;
+    margin: 0;
+    div{
+        
+        p{
+            text-align: center;
+        }
+        p:first-of-type{
+            span{
+                background-color: blue;
+                color: rgb(207, 207, 207);
+
+                
+            }
+        }
+    }
+
+}
+
+.section2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .white{
+        width: 70%;
+        border: red solid 3px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+       .design{
+
+        height: 300px;
+        width: 20%;
+        background-color: rgba(128, 128, 128, 0.616);
+
+
+       } 
+
+    }
+
+
+
+}
+
+
+
